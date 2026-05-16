@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "jdoe@gmail.com",
+        "favoriteColor" : "Green",
+        "birthday": "1/1/1990"
+    },
+        "contact2": {
+        "firstName": "Mary",
+        "lastName": "Doe",
+        "email": "mdoe@gmail.com",
+        "favoriteColor" : "Yellow",
+        "birthday": "2/1/1991"
+    },
+        "contact3": {
+        "firstName": "Little",
+        "lastName": "Doe",
+        "email": "ldoe@gmail.com",
+        "favoriteColor" : "Red",
+        "birthday": "3/1/2011"
+    }
+}

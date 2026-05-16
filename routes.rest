@@ -1,0 +1,67 @@
+Test
+GET http://localhost:8080/contacts
+GET http://localhost:8080/contacts/69fea03429913ee8fb625c3b
+GET http://localhost:8080/contacts/69f628f412e112ead84ef4cf
+GET http://localhost:8080/contacts/69f6293512e112ead84ef4d0
+
+### Update contact
+PUT http://localhost:8080/contacts/69fea9dcbd12880f9327e812 HTTP/1.1 
+content-type: application/json
+
+{
+  "firstName": "Johnny Boy",
+  "lastName": "Doe3",
+  "email": "jdoe@gmail.com4",
+  "favoriteColor": "Greeny",
+  "birthday": "2/1/1990"
+}
+
+### Delete contact
+DELETE http://localhost:8080/contacts/69fea9dcbd12880f9327e812
+
+### Create contact
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "Johnny",
+  "lastName": "Doe",
+  "email": "jdoe@gmail.com",
+  "favoriteColor": "Green",
+  "birthday": "1/1/1990"
+}
+###
+Production
+GET https://backend-wk3.onrender.com/contacts
+GET https://backend-wk3.onrender.com/contacts/69fea03429913ee8fb625c3b
+GET https://backend-wk3.onrender.com/contacts/69f628f412e112ead84ef4cf
+GET https://backend-wk3.onrender.com/contacts/69f6293512e112ead84ef4d0
+
+
+### Update contact
+PUT https://backend-wk3.onrender.com/contacts/69feaa3a2671822b4d66ae3e HTTP/1.1 
+content-type: application/json
+
+{
+  "firstName": "Johnny Boy",
+  "lastName": "Doe3",
+  "email": "jdoe@gmail.com4",
+  "favoriteColor": "Greeny",
+  "birthday": "2/1/1990"
+}
+
+### Delete contact
+DELETE https://backend-wk3.onrender.com/contacts/69feaa3a2671822b4d66ae3e
+
+### Create contact
+POST https://backend-wk3.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "Johnny",
+  "lastName": "Doe",
+  "email": "jdoe@gmail.com",
+  "favoriteColor": "Green",
+  "birthday": "1/1/1990"
+}
+###
